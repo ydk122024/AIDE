@@ -40,7 +40,7 @@ gesture information.
 
 ![Image text](imgs/img2.png)
 
-We show a specification comparison with the most relevant assistive driving perception datasets for the proposed AIDE. Please see the main paper for more details on the citations for the other datasets in the figure.
+We show a specification comparison with the relevant assistive driving perception datasets for the proposed AIDE. Please see the main paper for more details on the citations for the other datasets in the figure.
 
 ## User Guide
 
