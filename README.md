@@ -125,5 +125,8 @@ The keypoints are detailed below:
 ```
 Despite the face keypoints, we have not adopted them in the current version of the paper.
 
-* The basic data loading and processing procedures are provided in `dataset.py`.
+* The basic data loading and processing procedures are provided in `dataset.py`. The detailed input configurations for the different streams in each sample are as follows:
+
+<p align="center">
+<img src='imgs/img3.png' width="500px"/>
 
