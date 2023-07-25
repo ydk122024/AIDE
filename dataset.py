@@ -169,14 +169,14 @@ if __name__== "__main__":
     val_dataset = CarDataset(csv_file='validation.csv')
     test_dataset = CarDataset(csv_file='testing.csv')
 
-    train_dataloader = DataLoader(train_dataset, batch_size=16, shuffle=True, num_workers=16, drop_last=False)
-    val_dataloader = DataLoader(val_dataset, batch_size=16, shuffle=False, num_workers=16, drop_last=False)
-    test_dataloader = DataLoader(test_dataset, batch_size=16, shuffle=False, num_workers=16, drop_last=False)
-    for i_batch, sample in enumerate(test_dataloader):
+    train_dataloader = DataLoader(train_dataset, batch_size=1, shuffle=True, num_workers=16, drop_last=False)
+    val_dataloader = DataLoader(val_dataset, batch_size=1, shuffle=False, num_workers=16, drop_last=False)
+    test_dataloader = DataLoader(test_dataset, batch_size=1, shuffle=False, num_workers=16, drop_last=False)
+    for i_batch, sample in enumerate(val_dataloader):
         keypoint, context, body, face, emotion_label, behavior_label, context_label, vehicle_label = sample
         posture =  keypoint[:,:,:,:26,:]  
         gesture = keypoint[:,:,:,94:,:]
-        print('posture:{}, posture:{}, context:{}, body:{}, face:{}, emotion_label:{}, behavior_label:{}, context_label:{}, vehicle_label:{}' \
+        print('posture:{}, gesture:{}, context:{}, body:{}, face:{}, emotion_label:{}, behavior_label:{}, context_label:{}, vehicle_label:{}' \
         .format(posture.shape, gesture.shape, context.shape, body.shape, face.shape, emotion_label.shape, behavior_label.shape, context_label.shape, vehicle_label.shape))
         
 
