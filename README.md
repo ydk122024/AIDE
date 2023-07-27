@@ -4,20 +4,19 @@
 
 This repository contains available information on the AIDE dataset from the ICCV2023 paper:
 
-[**AIDE: A Vision-Driven Multi-View, Multi-Modal, Multi-Tasking Dataset for Assistive Driving Perception**](https://github.com/ydk122024/AIDE)<br>
+[**AIDE: A Vision-Driven Multi-View, Multi-Modal, Multi-Tasking Dataset for Assistive Driving Perception**](https://arxiv.org/pdf/2307.13933.pdf)<br>
 
 Please cite our paper if you find this work useful for your research:
 
 ```
-@inproceedings{yang2023AIDE,
-author    = {Yang, Dingkang},
-title     = {AIDE: A Vision-Driven Multi-View, Multi-Modal, Multi-Tasking Dataset for Assistive Driving Perception},
-booktitle = {xxxxxxxxxxxxxx},
-month     = {June},
-year      = {2023},
-pages     = {19005--19015}
-} 
+@inproceedings{yang2023aide,
+title = {AIDE: A Vision-Driven Multi-View, Multi-Modal, Multi-Tasking Dataset for Assistive Driving Perception},
+author = {Yang, Dingkang and Huang, Shuai and Xu, Zhi, and Li, Zhenpeng and Wang, Shunli and Li, Mingcheng and Wang, Yuzheng and Liu, Yang and Yang, Kun and Chen, Zhaoyu and Wang, Yan and Liu, Jing and Zhang, Peixuan and Zhai, Peng and Zhang, Lihua},
+journal = {arXiv preprint arXiv:2307.13933},
+year = {2023}
+}
 ```
+
 
 ## Abstract
 
