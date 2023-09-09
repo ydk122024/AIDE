@@ -45,7 +45,7 @@ We show a specification comparison with the relevant assistive driving perceptio
 
 1. **Dataset Download**
 
-   Researchers should use AIDE only for non-commercial research and educational purposes. The Cloud Drive Link is [here]([https://github.com/ydk122024/AIDE](https://pan.baidu.com/s/12xKtz_cka8TkkeKheX1LCg?pwd=1wi2#list/path=%2F).
+   Researchers should use AIDE only for non-commercial research and educational purposes. The Cloud Drive Link is [here](https://pan.baidu.com/s/12xKtz_cka8TkkeKheX1LCg?pwd=1wi2#list/path=%2F).
 
 2. **Configurations**
 
