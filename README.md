@@ -10,10 +10,12 @@ Please cite our paper if you find this work useful for your research:
 
 ```
 @inproceedings{yang2023aide,
-title = {AIDE: A Vision-Driven Multi-View, Multi-Modal, Multi-Tasking Dataset for Assistive Driving Perception},
-author = {Yang, Dingkang and Huang, Shuai and Xu, Zhi, and Li, Zhenpeng and Wang, Shunli and Li, Mingcheng and Wang, Yuzheng and Liu, Yang and Yang, Kun and Chen, Zhaoyu and Wang, Yan and Liu, Jing and Zhang, Peixuan and Zhai, Peng and Zhang, Lihua},
-journal = {arXiv preprint arXiv:2307.13933},
-year = {2023}
+    author    = {Yang, Dingkang and Huang, Shuai and Xu, Zhi and Li, Zhenpeng and Wang, Shunli and Li, Mingcheng and Wang, Yuzheng and Liu, Yang and Yang, Kun and Chen, Zhaoyu and Wang, Yan and Liu, Jing and Zhang, Peixuan and Zhai, Peng and Zhang, Lihua},
+    title     = {AIDE: A Vision-Driven Multi-View, Multi-Modal, Multi-Tasking Dataset for Assistive Driving Perception},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {20459-20470}
 }
 ```
 
@@ -45,9 +47,11 @@ We show a specification comparison with the relevant assistive driving perceptio
 
 1. **Dataset Download**
 
-   Researchers should use AIDE only for non-commercial research and educational purposes. The Cloud Drive Link is [here](https://pan.baidu.com/s/12xKtz_cka8TkkeKheX1LCg?pwd=1wi2#list/path=%2F).
+   Researchers should use AIDE only for non-commercial research and educational purposes.
+   * The Baidu Cloud Drive Link is [here](https://pan.baidu.com/s/12xKtz_cka8TkkeKheX1LCg?pwd=1wi2#list/path=%2F).
+   * The Dropbox Cloud Link is [here](https://www.dropbox.com/scl/fo/fib67gt6x9n4lzv79apuv/h?rlkey=4rbqg5mn1wyjfyoolk4vba3zx&dl=0). 
 
-2. **Configurations**
+3. **Configurations**
 
 * AIDE contains 2898 data samples with 521.64K frames. Each sample consists of 3-second video clips from four views, where the durations share a specific label from each perception task. AIDE is randomly divided into training (65%),
 validation (15%), and testing (20%) sets without considering held-out subjects due to the naturalistic nature of data imbalance. The partitioned sample paths are stored in `training.csv`, `validation.csv`, and `testing.csv`.
